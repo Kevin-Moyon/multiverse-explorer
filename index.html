@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiverse Explorer | Login</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+
+    <main class="container centered">
+        <section class="auth-card card-shadow">
+            <header class="auth-header">
+                <h1>Multiverse Explorer</h1>
+                <p>Identify yourself to access the database</p>
+            </header>
+
+            <form id="login-form" class="auth-form">
+                <div class="input-group">
+                    <label for="username">User Identity</label>
+                    <input type="text" id="username" placeholder="C-137" required>
+                </div>
+                
+                <div class="input-group">
+                    <label for="password">Security Key</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" class="btn-primary">Initialize Session</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="./js/auth.js"></script>
+</body>
+</html>
