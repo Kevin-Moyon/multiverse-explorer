@@ -1,6 +1,6 @@
 /**
  * API Service
- * Handles data fetching from the Rick and Morty API
+ *  Handles data fetching from the Disney API
  */
 
 const DISNEY_API_URL = 'https://api.disneyapi.dev/character';
